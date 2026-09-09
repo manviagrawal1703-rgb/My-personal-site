@@ -1,22 +1,24 @@
 body {
-    background-color: #f3ead7;
+    background-image: url("./images/image.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+padding: 30;
     color: #4b3526;
 }
-h1{
+h1 {
     font-size: 60px;
     text-align: center;
+    font-family: cursive;
+
 }
 h2{
     font-size: 32px;
 }
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
+
 section {
-    background-color: #fffaf0;
+   background-color: rgba(255, 250, 240, 0.72);
     margin: 50px;
     padding: 35px;
     border: 1px solid #d6c5aa;
@@ -38,7 +40,7 @@ p,li {
     line-height: 1.6;
 }
 .little-note {
-    background-color: #e8d8bd;
+    background-color: rgba(255, 250, 240, 0.72);
     padding: 15px 20px;
     width: 220px;
     box-shadow: 3px 4px 0px #c8b397;
@@ -46,6 +48,7 @@ p,li {
     font-family: 'Georgia', serif;
     text-align: center;
     position: relative;
+
 top: 30px;
 clip-path: polygon(
     0% 8%,
@@ -67,7 +70,7 @@ clip-path: polygon(
 );
 }
 .More-about-me {
-    background-color: #efe2c8;
+   background-color: rgba(255, 250, 240, 0.72);
     padding: 25px 20px;
     width: 450px;
     box-shadow: 4px 5px 0px #bda98b;
@@ -77,6 +80,7 @@ clip-path: polygon(
     position: relative;
     line-height: 1.7;
 left: 60%
+
 }
 .More-about-me::before {
     content: "";
@@ -137,4 +141,34 @@ left: 60%
     background-color: #ffe1a4;
     box-shadow: 5px 6px 0px #895a1b;
     transform: rotate(-7deg);
+}
+.art-note {
+    width: 200px;
+    padding: 12px 15px;
+    background-color: #e8d8bd;
+    box-shadow: 3px 4px 0px #c8b397;
+    font-family: cursive;
+    text-align: center;
+    transform: rotate(3deg);
+    margin: 25px;
+}
+.flower-scrap {
+    position: absolute;
+    width: 150px;
+    left: 1250px;
+    top: 650px;
+    transform: rotate(-5deg);
+    opacity: 0.7;
+}
+.paper-scrap {
+    background-color: #d8c3a5;
+    width: 180px;
+    padding: 18px;
+    font-family: cursive;
+    font-size: 17px;
+    box-shadow: 4px 5px 0px #a99276;
+    transform: rotate(-3deg);
+    position: absolute;
+    left: 1200px;
+    top: 200px;
 }
