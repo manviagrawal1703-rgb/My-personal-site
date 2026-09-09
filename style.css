@@ -107,3 +107,34 @@ left: 60%
     10% 93%,
     0% 98%,)
 }
+.artwork-one {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 4px 5px 0px #c8b397;
+    transform: rotate(2deg);
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(2deg);
+}
+  .artwork-two {
+    width: 250px;
+    position: absolute;
+    right: 250px;
+    top: 300px;
+
+    background-color: #fffaf0;
+    box-shadow: 5px 6px 0px #c8b397;
+    transform: rotate(-4deg);
+}
+.artwork-three {
+    width: 400px;
+    position: absolute;
+    right: 800px;
+    top: 500px;
+
+    background-color: #ffe1a4;
+    box-shadow: 5px 6px 0px #895a1b;
+    transform: rotate(-7deg);
+}
